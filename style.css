@@ -284,6 +284,12 @@ body.admin-bar .site-header {   /* put below admin-bar */
 /* 2.3 The Single Article
 -------------------------- */
 
+.newest-article {
+	background: rgb(128, 144, 255);
+	color: #fff;
+	padding: 5px 10px;
+}
+
 .content-article {
     margin-bottom: 50px;
 }

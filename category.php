@@ -18,6 +18,9 @@ get_header();
 
         <!-- top article -->
         <div id="article-view" class="content-article">
+		
+			<div class="newest-article"><?= _e("Newest Episode") ?></div>
+
             <?php
             $postsBU = $posts;      // creating Backup for original loop
             $posts = query_posts($query_string . '&paged=1&posts_per_page=1'); // paged=1: latest page, ppp=1: 1 post per page => most recent post
