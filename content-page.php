@@ -23,5 +23,9 @@
 
 	<footer class="entry-footer">
 		<?php edit_post_link( __( 'Edit', 'snowwhite' ), '<span class="edit-link">', '</span>' ); ?>
-	</footer><!-- .entry-footer -->
+        <div class="teaser-date">
+			<?php snowwhite_posted_on(); ?>
+        </div>
+    </footer><!-- .entry-footer -->
+
 </article><!-- #post-## -->

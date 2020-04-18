@@ -1,100 +1,115 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: snowwhite  theme\n"
-"POT-Creation-Date: 2020-02-28 21:48+0100\n"
-"PO-Revision-Date: 2020-02-28 22:08+0100\n"
+"POT-Creation-Date: 2020-04-18 19:29+0000\n"
+"PO-Revision-Date: 2020-04-18 19:33+0000\n"
 "Last-Translator: \n"
-"Language-Team: Stefan Tewes\n"
+"Language-Team: Deutsch\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Loco https://localise.biz/\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_x;_nx;_ex\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: inc\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.3.3; wp-5.3.2"
 
 #: 404.php:15
 msgid "Oops! That page can&rsquo;t be found."
-msgstr ""
+msgstr "Oops! Die Seite konnte nicht gefunden werden."
 
 #: 404.php:19
 msgid ""
 "It looks like nothing was found at this location. Maybe try one of the links "
 "below or a search?"
 msgstr ""
+"Sieht so aus als wäre hier nichts. Vielleicht probierst du einen dieser "
+"Links?"
 
 #: 404.php:27
 msgid "Most Used Categories"
-msgstr ""
+msgstr "Am häufigsten genutzte Kategorien"
 
 #: 404.php:44
 #, php-format
 msgid "Try looking in the monthly archives. %1$s"
-msgstr ""
+msgstr "Wirf einen Blick in die Monatsarchive. %1$s"
+
+#: category.php:22 index.php:22
+msgid "Newest Episode"
+msgstr "Aktuellste Episode"
 
 #: comments.php:25
 msgid "Comment on this"
-msgstr "Dies kommentieren"
+msgstr "Kommentieren"
 
 #: comments.php:25
 msgid "Show 1 Comment"
-msgstr ""
+msgstr "1 Kommentar anzeigen"
 
 #: comments.php:25
 msgid "Show % Comments"
-msgstr ""
+msgstr "% Kommentare anzeigen"
 
-#: comments.php:33
+#: comments.php:34
 #, php-format
-msgid "One thought on &ldquo;%2$s&rdquo;"
-msgstr ""
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Ein Kommentar zu &ldquo;%1$s&rdquo;"
 
-#: comments.php:39 comments.php:56
+#: comments.php:36
+#, php-format
+msgid "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr "%1$s Kommentare zu &ldquo;%2$s&rdquo;"
+
+#: comments.php:43 comments.php:60
 msgid "Comment navigation"
-msgstr ""
+msgstr "Kommentarnavigation"
 
-#: comments.php:40 comments.php:57
+#: comments.php:44 comments.php:61
 msgid "&larr; Older Comments"
-msgstr ""
+msgstr "&larr; Ältere Kommentare"
 
-#: comments.php:41 comments.php:58
+#: comments.php:45 comments.php:62
 msgid "Newer Comments &rarr;"
-msgstr ""
+msgstr "Neuere Kommentare &rarr;"
 
-#: comments.php:68
+#: comments.php:72
 msgid "Comments are closed."
-msgstr ""
+msgstr "Kommentare sind geschlossen."
 
-#: comments.php:71
+#: comments.php:75
 #, php-format
 msgid ""
 "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
 "and attributes: %s"
 msgstr ""
+"Du kannst diese <abbr title=\"HyperText Markup Language\">HTML</abbr> Tags "
+"und Attribute verwenden: %s"
 
 #: content-none-more.php:15
 msgid "This is the only article matching your search terms."
-msgstr ""
+msgstr "Dies ist der einzige passende Artikel, der zu den Suchkriterien passt."
 
 #: content-none-more.php:19
 msgid "This is the only article matching your request."
-msgstr ""
+msgstr "Dies ist der einzige passende Artikel, der zur Anfrage passt."
 
 #: content-none.php:13
 msgid "Nothing Found"
-msgstr ""
+msgstr "Kein Treffer"
 
 #: content-none.php:19
 #, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
-"Sind Sie bereit Ihren ersten Beitrag zu veröffentlichen?  <a href=\"%1$s"
-"\">Starten Sie hier</a>."
+"Sind Sie bereit Ihren ersten Beitrag zu veröffentlichen?  <a href=\"%1$s\">"
+"Starten Sie hier</a>."
 
 #: content-none.php:23
 msgid ""
@@ -141,33 +156,22 @@ msgstr "Hauptmenü"
 msgid "Sidebar"
 msgstr "Sidebar"
 
-#: functions.php:121 functions.php:122 functions.php:129
-msgid "Series"
-msgstr "Serie"
+#: rollCategory.php:47
+#, php-format
+msgid "View all posts in %s"
+msgstr "Alle Posts in %s ansehen"
 
-#: functions.php:123
-msgid "Search series"
-msgstr "Suche Serie"
+#: single.php:50
+msgid "Next Episode"
+msgstr "Nächste Episode"
 
-#: functions.php:124
-msgid "All series"
-msgstr "Alle Serien"
+#: single.php:58
+msgid "Previous Episode"
+msgstr "Vorherige Episode"
 
-#: functions.php:125
-msgid "Edit series"
-msgstr "Serie bearbeiten"
-
-#: functions.php:126
-msgid "Update series"
-msgstr "Serie aktualisieren"
-
-#: functions.php:127
-msgid "Add series"
-msgstr "Serie hinzufügen"
-
-#: functions.php:128
-msgid "New series"
-msgstr "Neue Serie"
+#: single.php:65
+msgid "To index page with all entrys"
+msgstr "Zur Startseite mit allen Einträgen"
 
 #: inc/extras.php:63
 #, php-format
@@ -187,10 +191,12 @@ msgid "Post navigation"
 msgstr "Beitragsnavigation"
 
 #: inc/template-tags.php:54
+msgctxt "Previous post link"
 msgid "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
 msgstr "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
 
 #: inc/template-tags.php:55
+msgctxt "Next post link"
 msgid "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
 msgstr "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
 
@@ -210,16 +216,19 @@ msgstr "1 Kommentar"
 msgid "% Comments"
 msgstr "% Kommentare"
 
-#: rollCategory.php:20 rollCategory.php:47
-#, php-format
-msgid "View all posts in %s"
-msgstr "Alle Beiträge in %s ansehen"
+#. Name of the theme
+msgid "Snow White"
+msgstr "Snow White"
 
-#: single.php:46
-#, php-format
-msgid "More in %s"
-msgstr "Mehr in %s"
+#. Description of the theme
+msgid "Theme for AlphaOrange Pilot Blog"
+msgstr "Theme für den AlphaOrange Pilot Blog"
 
-#: single.php:65
-msgid "To index page with all entrys"
-msgstr "Zur Hauptseite mit allen Beiträgen"
+#. URI of the theme
+#. Author URI of the theme
+msgid "http://alphaorange.de/"
+msgstr "http://alphaorange.de/"
+
+#. Author of the theme
+msgid "Stefan Tewes"
+msgstr "Stefan Tewes"

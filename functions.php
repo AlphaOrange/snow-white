@@ -1,4 +1,4 @@
-<?php load_theme_textdomain('snowwhite', 'snowwhite/languages'); 
+<?php load_theme_textdomain('snowwhite', get_template_directory() . '/languages'); 
 
 /**
  * snowwhite functions and definitions

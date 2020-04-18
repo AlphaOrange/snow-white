@@ -42,27 +42,27 @@ get_header();
         <!-- article roll left sidebar -->
         <div id="article-list" class="content-roll">
 
-          <div class="header-term-adjacent"><?php
-            echo sprintf(__('More in %s', 'snowwhite'), get_the_category()[0]->name);
-          ?></div>
-
           <?php
           $current_post = $post; // remember the current post
 
           $post = get_next_post(true); // this uses $post->ID
           if ($post) {
+			echo '<div class="header-term-adjacent">' . __('Next Episode', 'snowwhite') . '</div>';
             setup_postdata($post);
             get_template_part('teaser', get_post_format());
           }
           $post = $current_post; // restore
 
           $post = get_previous_post(true); // this uses $post->ID
-          setup_postdata($post);
-          get_template_part('teaser', get_post_format());
+		  if ($post) {
+			echo '<div class="header-term-adjacent">' . __('Previous Episode', 'snowwhite') . '</div>';
+			setup_postdata($post);
+			get_template_part('teaser', get_post_format());
+		  }
           $post = $current_post; // restore
           ?>
 
-          <div class="back-to-top snowwhite-button" rel="top"><a href="<?php echo esc_url(home_url('/')); ?>"><?php _e('To index page with all entrys'); ?></a></div>
+          <div class="back-to-top snowwhite-button" rel="top"><a href="<?php echo esc_url(home_url('/')); ?>"><?php _e('To index page with all entrys', 'snowwhite'); ?></a></div>
 
         </div><!-- #article-list -->
 

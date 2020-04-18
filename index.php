@@ -19,7 +19,7 @@ get_header();
         <!-- top article -->
         <div id="article-view" class="content-article">
 		
-			<div class="newest-article"><?= _e("Newest Episode") ?></div>
+			<div class="newest-article"><?= _e('Newest Episode', 'snowwhite') ?></div>
 					
             <?php
             $postsBU = $posts;      // creating Backup for original loop

@@ -22,7 +22,7 @@ if (post_password_required()) {
     <?php // You can start editing here -- including this comment!  ?>
 
     <input type="checkbox" id="checkbox-show-comments" class="checkbox-show-comments" />
-    <label for="checkbox-show-comments" class="content-show-comments snowwhite-button"><?php comments_number(_x('Comment on this', 'open-comments', 'snowwhite'), _x('Show 1 Comment', 'open-comments', 'snowwhite'), _x('Show % Comments', 'open-comments', 'snowwhite')); ?></label>
+    <label for="checkbox-show-comments" class="content-show-comments snowwhite-button"><?php comments_number(__('Comment on this', 'snowwhite'), __('Show 1 Comment', 'snowwhite'), __('Show % Comments', 'snowwhite')); ?></label>
 
     <div id="comments-inner" class="comments-inner-area">
 
@@ -30,7 +30,11 @@ if (post_password_required()) {
 
             <h2 class="comments-title">
                 <?php
-                printf(_nx('One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'snowwhite'), number_format_i18n(get_comments_number()), '<span>' . get_the_title() . '</span>');
+				if (get_comments_number() == 1) {
+					printf(__('One thought on &ldquo;%1$s&rdquo;', 'snowwhite'), '<span>' . get_the_title() . '</span>');
+				} else {
+					printf(__('%1$s thoughts on &ldquo;%2$s&rdquo;', 'snowwhite'), number_format_i18n(get_comments_number()), '<span>' . get_the_title() . '</span>');
+				}
                 ?>
             </h2>
 
@@ -68,7 +72,7 @@ if (post_password_required()) {
             <p class="no-comments"><?php _e('Comments are closed.', 'snowwhite'); ?></p>
         <?php endif; ?>
 
-        <?php comment_form(array('comment_notes_after' => '<p class="form-allowed-tags">' . sprintf(__('You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes: %s'), '<br><code>' . allowed_tags() . '</code>') . '</p>')); ?>
+        <?php comment_form(array('comment_notes_after' => '<p class="form-allowed-tags">' . sprintf(__('You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes: %s', 'snowwhite'), '<br><code>' . allowed_tags() . '</code>') . '</p>')); ?>
 
     </div><!-- #comments-inner -->
 

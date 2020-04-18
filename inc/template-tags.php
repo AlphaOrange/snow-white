@@ -132,7 +132,7 @@ if (!function_exists('snowwhite_entry_footer')) :
         snowwhite_posted_on();
         echo '</div><!-- .teaser-date -->';
         echo '<div class="teaser-comments-number">';
-        comments_number(_x('0 Comments', 'teaser-comments'), _x('1 Comment', 'teaser-comments'), _x('% Comments', 'teaser-comments'));
+        comments_number(__('0 Comments', 'snowwhite'), __('1 Comment', 'snowwhite'), __('% Comments', 'snowwhite'));
         echo '</div>';
     }
 
@@ -179,7 +179,7 @@ if (!function_exists('snowwhite_teaser_footer')) :
         snowwhite_posted_on();
         echo '</div><!-- .teaser-date -->';
         echo '<div class="teaser-comments-number">';
-        comments_number(_x('0 Comments', 'teaser-comments', 'snowwhite'), _x('1 Comment', 'teaser-comments', 'snowwhite'), _x('% Comments', 'teaser-comments', 'snowwhite'));
+        comments_number(__('0 Comments', 'snowwhite'), __('1 Comment', 'snowwhite'), __('% Comments', 'snowwhite'));
         echo '</div>';
     }
 
