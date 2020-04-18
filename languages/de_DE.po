@@ -1,0 +1,225 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: snowwhite  theme\n"
+"POT-Creation-Date: 2020-02-28 21:48+0100\n"
+"PO-Revision-Date: 2020-02-28 22:08+0100\n"
+"Last-Translator: \n"
+"Language-Team: Stefan Tewes\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;_nx;_ex\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: inc\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:44
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: comments.php:25
+msgid "Comment on this"
+msgstr "Dies kommentieren"
+
+#: comments.php:25
+msgid "Show 1 Comment"
+msgstr ""
+
+#: comments.php:25
+msgid "Show % Comments"
+msgstr ""
+
+#: comments.php:33
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:39 comments.php:56
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:40 comments.php:57
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:41 comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:71
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+
+#: content-none-more.php:15
+msgid "This is the only article matching your search terms."
+msgstr ""
+
+#: content-none-more.php:19
+msgid "This is the only article matching your request."
+msgstr ""
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Sind Sie bereit Ihren ersten Beitrag zu veröffentlichen?  <a href=\"%1$s"
+"\">Starten Sie hier</a>."
+
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Es tut uns leid. Ihre Suche ergab keinen Treffer. Bitte versuchen Sie es mit "
+"einem anderen Begriff."
+
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Es scheint, dass wir nicht finden können, was du suchst. Vielleicht kann die "
+"Suche helfen."
+
+#: content-page.php:18 content-single.php:20 content.php:23
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: content-page.php:25 inc/template-tags.php:118 inc/template-tags.php:166
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: footer.php:15
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:15
+#, php-format
+msgid "A %s blog"
+msgstr "Ein %s Blog"
+
+#: footer.php:17
+msgid "by"
+msgstr "von"
+
+#: functions.php:47 header.php:31
+msgid "Primary Menu"
+msgstr "Hauptmenü"
+
+#: functions.php:83
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: functions.php:121 functions.php:122 functions.php:129
+msgid "Series"
+msgstr "Serie"
+
+#: functions.php:123
+msgid "Search series"
+msgstr "Suche Serie"
+
+#: functions.php:124
+msgid "All series"
+msgstr "Alle Serien"
+
+#: functions.php:125
+msgid "Edit series"
+msgstr "Serie bearbeiten"
+
+#: functions.php:126
+msgid "Update series"
+msgstr "Serie aktualisieren"
+
+#: functions.php:127
+msgid "Add series"
+msgstr "Serie hinzufügen"
+
+#: functions.php:128
+msgid "New series"
+msgstr "Neue Serie"
+
+#: inc/extras.php:63
+#, php-format
+msgid "Page %s"
+msgstr "Seite %s"
+
+#: inc/template-tags.php:23
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ältere Beiträge"
+
+#: inc/template-tags.php:27
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Neuere Beiträge <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:51
+msgid "Post navigation"
+msgstr "Beitragsnavigation"
+
+#: inc/template-tags.php:54
+msgid "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+msgstr "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+
+#: inc/template-tags.php:55
+msgid "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:102 inc/template-tags.php:150
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:135 inc/template-tags.php:182
+msgid "0 Comments"
+msgstr "0 Kommentare"
+
+#: inc/template-tags.php:135 inc/template-tags.php:182
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: inc/template-tags.php:135 inc/template-tags.php:182
+msgid "% Comments"
+msgstr "% Kommentare"
+
+#: rollCategory.php:20 rollCategory.php:47
+#, php-format
+msgid "View all posts in %s"
+msgstr "Alle Beiträge in %s ansehen"
+
+#: single.php:46
+#, php-format
+msgid "More in %s"
+msgstr "Mehr in %s"
+
+#: single.php:65
+msgid "To index page with all entrys"
+msgstr "Zur Hauptseite mit allen Beiträgen"
