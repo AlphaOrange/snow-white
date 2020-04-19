@@ -155,15 +155,12 @@ body.admin-bar .site-header {   /* put below admin-bar */
 }
 
 .main-navigation {
-	position: relative;
-	right: 0;
-	background #ff0;
+  position: absolute;
+  right: 0;
+  top: 8px;
 }
 
 .main-navigation ul {
-  position: fixed;
-  right: 0;
-  top: 40px;
   list-style-type: none;
   margin: 0;
   padding: 0;
